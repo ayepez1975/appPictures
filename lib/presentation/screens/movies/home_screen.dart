@@ -1,3 +1,4 @@
+import 'package:cinema_pedia/config/constants/environment.dart';
 import 'package:flutter/material.dart';
 
 
@@ -11,8 +12,8 @@ static const name = 'HomeScreen';
      appBar: AppBar( 
        title: const Text('Home'), 
       ),
-      body: const Center(
-        child: Text('HomeScreen'),
+      body:  Center(
+        child: Text(Environment.themovieDbKey),
      ),
    );
   }

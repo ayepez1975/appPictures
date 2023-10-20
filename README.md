@@ -4,13 +4,14 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+flutter pub add flutter_riverpod
+flutter pub add riverpod_annotation
+flutter pub add dev:riverpod_generator
+flutter pub add dev:build_runner
+flutter pub add dev:custom_lint
+flutter pub add dev:riverpod_lint
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ change version riverpod_generator: 3.0.0-dev.3
+ run Terminal
+dart run build_runner watch
